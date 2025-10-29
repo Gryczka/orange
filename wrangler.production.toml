@@ -1,6 +1,6 @@
 name = "orange-meets-production"
 
-account_id = "8477399eb04accc1792af96aeaa25222"
+account_id = "YOUR_ACCOUNT_ID_HERE"
 main = "./build/index.js"
 # https://developers.cloudflare.com/workers/platform/compatibility-dates
 compatibility_date = "2024-10-07"
@@ -23,8 +23,8 @@ name = "rooms"
 class_name = "ChatRoom"
 
 [vars]
-CALLS_APP_ID = "700932c6384d6f4ba19838afa3ab93cd"
-TURN_SERVICE_ID = "53fa66872a8636170428abae9b049193"
+CALLS_APP_ID = "YOUR_CALLS_APP_ID_HERE"
+TURN_SERVICE_ID = "YOUR_TURN_SERVICE_ID_HERE"
 EXPERIMENTAL_SIMULCAST_ENABLED = "false"
 
 [[queues.producers]]

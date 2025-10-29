@@ -56,7 +56,7 @@ export function EnsurePermissions(props: EnsurePermissionsProps) {
 			<div className="grid items-center h-full">
 				<div className="mx-auto max-w-80">
 					<p className="mb-8">
-						In order to use Orange Meets, you will need to grant permission to
+						In order to use Orange Asymmetric Multi Camera Meets, you will need to grant permission to
 						your camera and microphone. You will be prompted for access.
 					</p>
 					<Button

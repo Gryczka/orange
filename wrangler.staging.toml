@@ -1,6 +1,6 @@
 name = "orange-meets-staging"
 
-account_id = "8477399eb04accc1792af96aeaa25222"
+account_id = "YOUR_ACCOUNT_ID_HERE"
 main = "./build/index.js"
 # https://developers.cloudflare.com/workers/platform/compatibility-dates
 compatibility_date = "2024-10-07"
@@ -23,8 +23,8 @@ name = "rooms"
 class_name = "ChatRoom"
 
 [vars]
-CALLS_APP_ID = "9effffd0c077c1115c7d285e55593a9a"
-TURN_SERVICE_ID = "11cebcf8429b947a48c6894650daa021"
+CALLS_APP_ID = "YOUR_CALLS_APP_ID_HERE"
+TURN_SERVICE_ID = "YOUR_TURN_SERVICE_ID_HERE"
 EXPERIMENTAL_SIMULCAST_ENABLED = "true"
 
 [[queues.producers]]

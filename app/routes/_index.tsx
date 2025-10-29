@@ -35,7 +35,7 @@ export default function Index() {
 			<div className="flex-1"></div>
 			<div className="space-y-6 sm:min-w-96">
 				<div>
-					<h1 className="text-3xl font-bold">🍊 Orange Meets</h1>
+					<h1 className="text-3xl font-bold">🍊 Orange Asymmetric Multi Camera Meets</h1>
 					<div className="flex items-center justify-between gap-3">
 						<p className="text-sm text-zinc-500 dark:text-zinc-400">
 							Logged in as {data?.displayName}

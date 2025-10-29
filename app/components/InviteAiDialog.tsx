@@ -62,7 +62,7 @@ export function InviteAiDialog(props: { children?: ReactNode }) {
 									rows={15}
 									defaultValue={
 										instructions ??
-										`You are a helpful and concise AI assistant for a video chat application called Orange Meets.`
+										`You are a helpful and concise AI assistant for a video chat application called Orange Asymmetric Multi Camera Meets.`
 									}
 								/>
 							</div>

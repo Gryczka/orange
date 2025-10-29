@@ -149,23 +149,25 @@ export default function Lobby() {
 					<Button
 						onClick={() => {
 							setJoined(true)
-							// we navigate here with javascript instead of an a
-							// tag because we don't want it to be possible to join
-							// the room without the JS having loaded
 							navigate(
-								'room' + (params.size > 0 ? '?' + params.toString() : '')
+								'hospital' + (params.size > 0 ? '?' + params.toString() : '')
 							)
 						}}
 						disabled={!session?.sessionId}
 					>
-						Join
+						Join as Hospital
 					</Button>
-					<MicButton />
-					<CameraButton />
-					<SettingsButton />
-					<Tooltip content="Copy URL">
-						<CopyButton contentValue={roomUrl}></CopyButton>
-					</Tooltip>
+					<Button
+						onClick={() => {
+							setJoined(true)
+							navigate(
+								'technician' + (params.size > 0 ? '?' + params.toString() : '')
+							)
+						}}
+						disabled={!session?.sessionId}
+					>
+						Join as Technician
+					</Button>
 				</div>
 			</div>
 			<div className="flex flex-col justify-end flex-1">

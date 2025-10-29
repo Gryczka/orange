@@ -123,6 +123,7 @@ function JoinedRoom({ bugReportsEnabled }: { bugReportsEnabled: boolean }) {
 		pushedTracks,
 		raisedHand,
 		speaking,
+		role: 'regular',
 	})
 
 	useSounds(otherUsers)

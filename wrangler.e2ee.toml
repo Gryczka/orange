@@ -1,6 +1,6 @@
 name = "orange-meets-e2ee"
 
-account_id = "8477399eb04accc1792af96aeaa25222"
+account_id = "YOUR_ACCOUNT_ID_HERE"
 main = "./build/index.js"
 # https://developers.cloudflare.com/workers/platform/compatibility-dates
 compatibility_date = "2024-10-07"
@@ -14,8 +14,8 @@ type = "ESModule"
 globs = ["**/*.js"]
 
 [vars]
-CALLS_APP_ID = "5e6ca5ca9db8b1c4bb0c3eadffc180f0"
-TURN_SERVICE_ID = "46711d6c5759085dd70f599f6190ab94"
+CALLS_APP_ID = "YOUR_CALLS_APP_ID_HERE"
+TURN_SERVICE_ID = "YOUR_TURN_SERVICE_ID_HERE"
 PUBLIC = "true"
 E2EE_ENABLED = "true"
 
